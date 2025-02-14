@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int; *ptr = x; // Assign the value of x to the dynamically allocated memory. int y = *ptr; // Use the value stored in the allocated memory. delete ptr; ptr = nullptr; // Release the dynamically allocated memory. return 0; }
